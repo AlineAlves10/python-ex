@@ -1,7 +1,7 @@
-nume = int(input('escolha um numero:'))
-c = nume % 2
+numero = int(input('me diga um numero aleatorio:'))
 
-if c == 0:
-    print('PAR')
+conta = numero %2
+if conta == 0:
+    print(numero, 'é PAR!')
 else:
-    print('IMPAR')
+    print(numero, 'é IMPAR!')

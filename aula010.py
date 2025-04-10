@@ -1,4 +1,5 @@
-tempo = int(input('quantos anos tem seu carro?'))
-
-print('carro novo' if tempo <= 3 else 'carro velho')
-print('--fim--')
+nome = str(input('qual o seu nome?'))
+if nome == 'Aline':
+    print('lalalalalala')
+else:
+    print('okokokokok')

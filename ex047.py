@@ -1,2 +1,7 @@
-for c in range(0, 51, 2):
-    print('Aqui está todos os números pares de 1 até 50', c)
+
+for c in range(0, 50):
+    conta = c % 2
+    if conta == 0:
+        print(c)
+
+print('fim')

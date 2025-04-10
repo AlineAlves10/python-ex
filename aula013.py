@@ -1,3 +1,4 @@
+#conta de tras pra frente
 for c in range(6, 0, -1):
     print(c)
 
